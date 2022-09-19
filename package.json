@@ -1,0 +1,18 @@
+{
+  "name": "@lbc/astro-starter-kit",
+  "type": "module",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro",
+    "update-styles": "git subtree pull --prefix src/styles https://github.com/LBC-Starter-Kits/sass-7-1-pattern.git main --squash"
+  },
+  "dependencies": {
+    "astro": "^1.2.7",
+    "sass": "^1.54.9"
+  }
+}
